@@ -11,7 +11,7 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <Link className="navbar-brand" to="/"><b>Gossip Cafe</b></Link>
+        <Link className="navbar-brand" to="/"><b>Crew Spot</b></Link>
         <ul className="navbar-nav  justify-content-center flex-grow-1 mb-2 pe-2 mb-lg-0">
           <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
@@ -29,7 +29,9 @@ const Navbar = () => {
         </ul>
        
       </div>
-      <Link to="login" className="login-btn"> login</Link>
+    
+      <Link to="login" className="nav-link"> login</Link>
+      
 
     </div>
   </nav>

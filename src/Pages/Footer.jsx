@@ -36,7 +36,7 @@ const Footer = () => {
       </footer>
   
     <footer className=" footerTwo d-flex justify-content-center align-items-center">
-      © 2035 by Gossip Cafe. Powered and secured by Suryababu
+      © 2024 by Crew Spot. Powered and secured by Suryababu
     </footer>
 
 </>

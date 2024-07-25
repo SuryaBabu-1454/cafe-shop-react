@@ -9,10 +9,10 @@ const Home = () => {
    <>
     <section className="homePage ps-5 d-flex justify-content-start align-items-center text-white  ">
       <div className="homeContent">
-        <h1 className="display-3 d-inline  pe-2"><b>Gossip Cafe</b></h1>
+        <h1 className="display-3 d-inline  pe-2"><b>Crew Spot</b></h1>
         <span className="display-6">-Fuel Your Day</span>
 
-        <p>"Hit up <b>Gossip Cafe</b> for your daily fix of epic coffee, fresh Juice vibes, and killer sandwiches.It's the perfect spot to chill, chat, and charge up. Catch the buzz. Stay for the Taste."</p>
+        <p>"Hit up <b>Crew Spot</b> for your daily fix of epic coffee, fresh Juice vibes, and killer sandwiches.It's the perfect spot to chill, chat, and charge up. Catch the buzz. Stay for the Taste."</p>
 
       </div>
       

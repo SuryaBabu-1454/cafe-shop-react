@@ -1,17 +1,17 @@
 import React from 'react'
 import '../index.css'
-import EatImage from '../Image/toast.jpg'
-import DrinkImg from '../Image/drink.jpg'
-import EnjoyImg from '../Image/Enjoyy.jpeg'
+import ThisOne from '../Image/ThisisOne.jpeg'
+import ThisTwo from '../Image/This is us 2.webp';
+import DrinkNew from '../Image/DrinkNew.jpeg';
 import { Link } from 'react-router-dom'
-const SectionOne = () => {
+const ThisSection = () => {
   return (
     <>
      <div className="container-fluid">
   <section className=" sectionOne">
         <div className="row">
           <div className="col-md-6 col-sm-12 p-0  ContentsImg">
-            <img src={EatImage} alt="drink" className='img-fluid p-0' />
+            <img src={DrinkNew} alt="drink" className='img-fluid p-0' />
            
           </div>
           <div className="col-md-6 col-sm-12 p-5 d-flex justify-content-center align-items-start flex-column Contents">
@@ -31,14 +31,14 @@ const SectionOne = () => {
             <Link to="menu"> <button className="btn btn-outline-dark">View Menu</button></Link>
            </div>
             <div className="col-md-6 col-sm-12 p-0 ContentsImg ">
-            <img src={DrinkImg} alt="" className="img-fluid p-0"/>
+            <img src={ThisOne} alt="" className="img-fluid p-0"/>
           </div>
           </div> 
     </section>
   <section className=" sectionThree">
         <div className="row">
           <div className="col-md-6 col-sm-12 p-0 ContentsImg ">
-            <img src={EnjoyImg} alt="" className="img-fluid" />
+            <img src={ThisTwo} alt="" className="img-fluid" />
           </div>
           <div className="col-md-6 col-sm-12 Contents d-flex justify-content-center align-items-start flex-column p-5">
             <h2>
@@ -54,4 +54,4 @@ const SectionOne = () => {
   )
 }
 
-export default SectionOne
+export default ThisSection
