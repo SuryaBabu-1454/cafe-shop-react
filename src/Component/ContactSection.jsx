@@ -46,7 +46,7 @@ const ContactSection = () => {
                 </div>
                 <div className="mb-3">
                 <label htmlFor="message" className="form-label">Message:</label>
-                <textarea className="form-control" id="message" name='message'required rows="3" value={formData.message}onChange={handleChange} ></textarea>
+                <textarea className="form-control" id="message" name='message'required rows="3" value={formData.message} onChange={handleChange} ></textarea>
                 </div>
             <div className=" d-grid">
                 <button type="submit" className="btn btn-dark btn-block">Submit</button>

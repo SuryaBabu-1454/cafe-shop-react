@@ -1,6 +1,4 @@
 import React from "react";
-
-
 import './Menu.css';
 import '../index.css';
 import MenuList from "../Component/MenuList";
@@ -85,12 +83,7 @@ const Menu = () => {
    
    <MenuList />
    <Footer/>
- 
-   
-   
 
-  
-    
     </>
 
   )

@@ -116,6 +116,9 @@ width: 100%;
 .Contents h2{
     font-size: 70px;
 }
+.Contents h3{
+    font-size: 60px;
+}
 .Contents p{
     font-size: 20px;
     padding: 10px 0;
