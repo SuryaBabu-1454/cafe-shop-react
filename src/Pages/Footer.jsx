@@ -20,8 +20,8 @@ const Footer = () => {
             </div>
             <div className="mt-4" >
   
-              <p>3, AGS Cinima's Opposite </p>
-              <p>Maduravayo, Chennai-95</p>
+              <p>3, AGS cinema's Opposite </p>
+              <p>Maduravayol, Chennai-95</p>
             </div>
             
           </div>
